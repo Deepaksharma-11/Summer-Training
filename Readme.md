@@ -11,6 +11,10 @@ It allows you to search for any GitHub user, view their profile details, explore
 
 ---
 
+## 🌐 Live Demo
+
+### 👉 [Click here](https://gitview-app.netlify.app/)
+
 ## ✨ Features
 
 - 🔍 Search any GitHub username
