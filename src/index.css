@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fade-in-out {
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+.animate-fade-in-out {
+  animation: fade-in-out 1.2s;
+}
+
+body {
+  @apply font-sans transition-all duration-300 ease-in-out;
+}
+
+.dark body {
+  background-color: #121212;
+}
