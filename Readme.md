@@ -7,7 +7,7 @@ It allows you to search for any GitHub user, view their profile details, explore
 
 ## 🖼️ Preview
 
-![GitView Screenshot](./screenshot.png)
+![GitView Screenshot](assets/screenshots/homelight.png)
 
 ---
 
@@ -27,11 +27,13 @@ It allows you to search for any GitHub user, view their profile details, explore
 
 ## 📸 Screenshots
 
-> _You can upload your own screenshots and update paths below_
+| Home / Search | User Profile + Repos |
+|---------------|-----------------------|
+| ![Home](assets/screenshots/homedark.png) | ![Profile](assets/screenshots/userprofile.png) |
 
-| Home / Search       | User Profile + Repos |
-|---------------------|----------------------|
-| ![Home](./home.png) | ![Profile](./profile.png) |
+| Filter Search | History |
+|----------------|---------|
+| ![Filter](assets/screenshots/filter.png) | ![History](assets/screenshots/history.png) | 
 
 ---
 
@@ -65,9 +67,17 @@ It allows you to search for any GitHub user, view their profile details, explore
     ```
 
 ## 📁 Folder Structure
-
+```
 GitView/
 ├── node_modules/
+├── assets/
+│   └── screensots/
+│        ├──filter.png
+         ├──history.png
+│        ├──homedark.png
+│        ├──homelight.png
+│        └──userprofile.png
+│
 ├── public/
 │   ├── github-mark.svg
 │   ├── index.html
@@ -96,5 +106,8 @@ GitView/
 ├── package.json
 ├── postcss.config.js
 └── tailwind.config.js
+```
 
+## 🤝 Contributing
 
+Pull requests are welcome. Open an issue first to discuss major changes.
