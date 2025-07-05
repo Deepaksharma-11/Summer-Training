@@ -13,7 +13,7 @@ const THEME_KEY = 'gitview-theme';
 
 function App() {
   const [theme, setTheme] = useState(() => localStorage.getItem(THEME_KEY) || 'light');
-  const [username, setUsername] = useState('');
+  const [, setUsername] = useState('');
   const [user, setUser] = useState(null);
   const [repos, setRepos] = useState([]);
   const [filteredRepos, setFilteredRepos] = useState([]);
