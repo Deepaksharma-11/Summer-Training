@@ -5,7 +5,7 @@ import { FaUserFriends, FaUserPlus, FaGithub } from 'react-icons/fa';
 export default function UserProfileCard({ user }) {
   if (!user) return null;
   return (
-    <div className="w-full max-w-2xl mx-auto bg-white/70 dark:bg-gray-900/70 backdrop-blur rounded-2xl shadow-xl p-6 mb-6 flex flex-col md:flex-row items-center gap-6 border border-gray-200 dark:border-gray-800 transition-transform duration-300 hover:scale-105">
+    <div className="w-full max-w-2xl mx-auto bg-white/70 dark:bg-[#282828] backdrop-blur rounded-2xl shadow-xl p-6 mb-6 flex flex-col md:flex-row items-center gap-6 border border-gray-200 dark:border-gray-800 transition-transform duration-300 hover:scale-105">
       <img
         src={user.avatar_url}
         alt={user.name || user.login}

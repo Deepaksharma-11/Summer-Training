@@ -20,7 +20,7 @@ export default function SidebarFilters({ selected, onChange }) {
   };
 
   return (
-    <aside className="w-full md:w-64 bg-white/70 dark:bg-gray-900/70 rounded-xl shadow-lg p-4 mb-4 md:mb-0 md:mr-6 sticky top-20 h-fit">
+    <aside className="w-full md:w-64 bg-white/70 dark:bg-[#282828] rounded-xl shadow-lg p-4 mb-4 md:mb-0 md:mr-6 sticky top-20 h-fit">
       <h2 className="text-lg font-semibold mb-3 text-gray-800 dark:text-gray-100">Filter by Language</h2>
       <div className="flex flex-col gap-2">
         {LANGUAGES.map(lang => (

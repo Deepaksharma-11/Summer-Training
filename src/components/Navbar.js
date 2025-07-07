@@ -8,7 +8,7 @@ export default function Navbar({ theme, toggleTheme }) {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur shadow-md transition-colors">
+    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-[#282828] backdrop-blur shadow-md transition-colors">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         <button
           onClick={goHome}

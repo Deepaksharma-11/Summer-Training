@@ -17,7 +17,7 @@ export default function RepoCard({ repo }) {
   };
 
   return (
-    <div className="bg-white/60 dark:bg-gray-800/60 rounded-xl shadow-lg p-5 mb-4 backdrop-blur border border-gray-200 dark:border-gray-800 transition hover:scale-[1.02] hover:shadow-2xl flex flex-col gap-2">
+    <div className="bg-white/60 dark:bg-[#282828] rounded-xl shadow-lg p-5 mb-4 backdrop-blur border border-gray-200 dark:border-gray-800 transition hover:scale-[1.02] hover:shadow-2xl flex flex-col gap-2">
       <div className="flex items-center justify-between mb-2">
         <div className="flex items-center gap-2">
           <a
@@ -60,7 +60,7 @@ export default function RepoCard({ repo }) {
           href={repo.html_url}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block rounded-full bg-gray-800 text-white px-4 py-1 text-sm font-medium hover:bg-gray-700 transition-all shadow"
+          className="inline-block rounded-full bg-gray-800 dark:bg-gray-700 text-white px-4 py-1 text-sm font-medium hover:bg-gray-700 transition-all duration-300 shadow-md hover:shadow-lg hover:scale-105"
         >
           View on GitHub
         </a>

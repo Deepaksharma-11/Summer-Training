@@ -90,7 +90,7 @@ function App() {
   const toggleTheme = () => setTheme(t => (t === 'dark' ? 'light' : 'dark'));
 
   return (
-    <div className="min-h-screen w-full font-sans transition-all duration-300 ease-in-out bg-white dark:bg-[#121212]">
+    <div className="min-h-screen w-full font-sans transition-all duration-300 ease-in-out bg-[#EDE8D0] dark:bg-[#121212]">
       <Navbar theme={theme} toggleTheme={toggleTheme} />
       
       {/* Conditional Layout */}

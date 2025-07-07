@@ -20,7 +20,7 @@ export default function SearchHistory({ history, onSelect, onClearAll, onDeleteI
         {history.map((username, idx) => (
           <div
             key={username + idx}
-            className="group relative bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-800 transition-all duration-200"
+            className="group relative bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-100 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-800 transition-all duration-200"
           >
             <button
               onClick={() => onSelect(username)}
