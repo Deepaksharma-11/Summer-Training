@@ -55,7 +55,7 @@ It allows you to search for any GitHub user, view their profile details, explore
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/GitView.git
+   git clone https://github.com/Deepaksharma-11/GitView.git
    cd GitView
 
 2. **Install dependencies:**
