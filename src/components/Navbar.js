@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GITHUB_PROFILE_URL = 'https://github.com/harsh-799';
+const GITHUB_PROFILE_URL = 'https://github.com/Deepaksharma-11';
 
 export default function Navbar({ theme, toggleTheme }) {
   const goHome = () => {
